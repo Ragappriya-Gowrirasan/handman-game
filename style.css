@@ -1,0 +1,35 @@
+/* Style the navigation bar container */
+.container {
+    text-align: center; /* Center-align the container */
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between items (adjust as needed) */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Link text color */
+    font-weight: bold; /* Bold text for links (adjust as needed) */
+}
+
+h1 {
+text-align: left;
+}
+
+h2 {
+text-align: left;
+}
+img {
+    float: right; /* Float the image to the right */
+    height: 200px;
+
+}
