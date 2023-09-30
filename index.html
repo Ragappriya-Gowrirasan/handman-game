@@ -24,6 +24,7 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
+    <!-- link style css page -->
     <link rel="stylesheet" href="style.css">
 
    
@@ -56,21 +57,25 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <!-- Add Bootstrap JavaScript and jQuery (optional) -->
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <body>
-    <nav> 
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about.html">about</a>
+            <a class="nav-item nav-link" href="game.html">game</a>
+            <a class="nav-item nav-link disabled" href="contact.html">contact</a>
+          </div>
         </div>
-    </nav>
+      </nav>
     
     <div class="container">
         <!-- Bootstrap container class to create a responsive container -->
@@ -79,7 +84,7 @@
                 <!-- Use Bootstrap grid system to create columns -->
                 <h1>This is a Hangman Game Website</h1>
                 <h2>Let's play!</h2>
-                <a href="game.html" class="btn btn-primary">Play</a>
+                <a href="game.html">Play</a>
             </div>
             <div class="col-md-6">
                 <!-- Another column for additional content if needed -->
