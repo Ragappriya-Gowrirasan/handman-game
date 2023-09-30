@@ -146,3 +146,15 @@ button {
   .p-3 {
     padding: $spacer !important;
   }
+
+
+  /* image background */
+
+  .bg-image {
+    background-image: url('images/hangman-background.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+    color: #fff; /* Set text color to white for better readability */
+    padding: 20px; /* Add padding to the container */
+}
