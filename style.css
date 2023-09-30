@@ -107,6 +107,7 @@ button:hover {
 
 .my-div-box button:hover {
     background-color: #0056b3; /* Change button color on hover */
+    width: 30vh;
 }
 
 .my-div-box {
