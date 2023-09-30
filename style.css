@@ -102,12 +102,13 @@ button {
     margin: 20px; /* Add margin around the div */
     text-align: center; /* Center text horizontally */
     line-height: 1.5; /* Adjust line height for text */
-    box-shadow: 3px 3px 5px #888; /* Add a box shadow */
+    /*box-shadow: 3px 3px 5px #888; /* Add a box shadow */
 }
 
 .my-div-box button:hover {
     background-color: #0056b3; /* Change button color on hover */
-    width: 30vh;
+    width: 300rem;
+    height: 300px;
 }
 
 .my-div-box {
@@ -120,5 +121,5 @@ button {
     margin: 20px; /* Add margin around the div */
     /*text-align: center; /* Center text horizontally */
     line-height: 1.5; /* Adjust line height for text */
-    box-shadow: 3px 3px 5px #888; /* Add a box shadow */
+    /*box-shadow: 3px 3px 5px #888; /* Add a box shadow */
 }
