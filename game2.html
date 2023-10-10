@@ -17,6 +17,14 @@
      <!-- Place in your HTML file between the <head> tags -->
 </head>
 <body class="bg-primary">
+    <div class="game-model">
+        <div class="container">
+            <img src="images/hangman/sad-frown.gif">
+            <h4>Game is over</h4>
+            <p>the currect word was: <b>rainbox</b></p>
+            <button class="play-again">Play-again</button>
+        </div>
+    </div>
     <div class="container mt-4 ">
         <div class="row bg-light rounded">
           <div class="col-md-6 p-3 mb-2 ">
@@ -27,14 +35,14 @@
           <div class="col-md-6 p-3 mb-2 text-dark">
             <div class="p-3">
                 <ul id="word-display">
-                    <li class="letter">a</li>
+                    <li class="letter guess">a</li>
                     <li class="letter"></li>
                     <li class="letter"></li>
                     <li class="letter"></li>
                     <li class="letter"></li>
                     <li class="letter"></li>
                 </ul>
-                <h3>Score<span> 0 / 6</span></h3>
+                <h3>Score<span class="h3"> 0 / 6</span></h3>
             </div>
           </div>
           <div class="col-md-6 p-3 mb-2 text-dark">
@@ -46,7 +54,7 @@
             </div>
           </div>
           <div class="col-md-6 p-3 mb-2 bg-light text-dark">
-            <div class="p-3 " >
+            <div class="p-3 " id="button" >
                 <button type="button" class="btn btn-outline-dark">A</button><button type="button" class="btn btn-outline-dark">B</button><button type="button" class="btn btn-outline-dark">C</button><button type="button" class="btn btn-outline-dark">D</button>
                 <button type="button" class="btn btn-outline-dark">E</button><button type="button" class="btn btn-outline-dark">F</button><button type="button" class="btn btn-outline-dark">G</button><button type="button" class="btn btn-outline-dark">H</button>
                 <button type="button" class="btn btn-outline-dark">I</button><button type="button" class="btn btn-outline-dark">J</button><button type="button" class="btn btn-outline-dark">K</button><button type="button" class="btn btn-outline-dark">L</button>
