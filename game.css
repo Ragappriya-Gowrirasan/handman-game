@@ -1,11 +1,32 @@
 /* body  */
-body{
+#body{
     background-color: darkorchid;
     background:fixed;
     
 }
 
 /* container */
-.container{
+/* div */
+#container{
     background-color: white;
+}
+
+/* word-display */
+/* ul list */
+#word-display {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+/* ul list  */
+/* li */
+.letter{
+    width: 28px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20%;
+    font-size: 30px;
+    text-transform: capitalize;
 }

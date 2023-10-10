@@ -17,25 +17,36 @@
      <!-- Place in your HTML file between the <head> tags -->
 </head>
 <body class="bg-primary">
-    <div class="container">
+    <div class="container mt-4 ">
         <div class="row bg-light rounded">
-          <div class="col-6 p-3 mb-2 bg-warning text-dark">
+          <div class="col-md-6 p-3 mb-2 ">
             <div class="p-3">
-                <!-- <img src="images/hangman/hang.png"> -->
+                <img src="images/hangman/hang-1.png" class="img-thumbnail rounded-4" alt="hang-image">
             </div>
           </div>
-          <div class="col-6 p-3 mb-2 bg-danger text-white">
-            <div class="p-3">Hangman Game</div>
-          </div>
-          <div class="col-6 p-3 mb-2 bg-success text-white">
+          <div class="col-md-6 p-3 mb-2 text-dark">
             <div class="p-3">
-                <ul>
-                    <li>letter</li>
+                <ul id="word-display">
+                    <li class="letter">a</li>
+                    <li class="letter"></li>
+                    <li class="letter"></li>
+                    <li class="letter"></li>
+                    <li class="letter"></li>
+                    <li class="letter"></li>
                 </ul>
+                <h3>Score<span> 0 / 6</span></h3>
             </div>
           </div>
-          <div class="col-6 p-3 mb-2 bg-light text-dark">
-            <div class="p-3">
+          <div class="col-md-6 p-3 mb-2 text-dark">
+            <div class="p-3 m-6">
+                <h1>Hangman Game</h1>
+                <div>
+                    <button class="btn btn-dark" type="play">Play</button>
+                  </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-3 mb-2 bg-light text-dark">
+            <div class="p-3 " >
                 <button type="button" class="btn btn-outline-dark">A</button><button type="button" class="btn btn-outline-dark">B</button><button type="button" class="btn btn-outline-dark">C</button><button type="button" class="btn btn-outline-dark">D</button>
                 <button type="button" class="btn btn-outline-dark">E</button><button type="button" class="btn btn-outline-dark">F</button><button type="button" class="btn btn-outline-dark">G</button><button type="button" class="btn btn-outline-dark">H</button>
                 <button type="button" class="btn btn-outline-dark">I</button><button type="button" class="btn btn-outline-dark">J</button><button type="button" class="btn btn-outline-dark">K</button><button type="button" class="btn btn-outline-dark">L</button>
@@ -47,8 +58,6 @@
           </div>
         </div>
     </div>
-      <div>
-        <button>Play</button>
-      </div>
+
 </body>
 </html>
